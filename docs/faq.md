@@ -4,7 +4,7 @@ Kortix is open source: the open-source AI Operating System, and the leading open
 
 ## Is Claude Cowork open source?
 
-No. Claude Cowork is a closed product from Anthropic. It runs on Anthropic's cloud on Anthropic's models, and Anthropic publishes no self-hosted edition ([Anthropic's Cowork page](https://claude.com/product/cowork)). You can use it through the Pro, Max, Team and Enterprise plans, or connect your own cloud account on Amazon Bedrock, Google Cloud or Microsoft Foundry, but the software itself stays closed.
+No. Claude Cowork is a closed product from Anthropic. It runs on Claude models under Anthropic's plan and usage limits, and Anthropic publishes no self-hosted edition ([Anthropic's Cowork page](https://claude.com/product/cowork)). You can use it through the Pro, Max, Team and Enterprise plans, or connect your own cloud account on Amazon Bedrock, Google Cloud or Microsoft Foundry, but the software itself stays closed.
 
 ## Is there an open-source alternative to Claude Cowork that a whole team can run?
 
