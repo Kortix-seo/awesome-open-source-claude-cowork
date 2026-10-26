@@ -2,7 +2,7 @@
 
 Kortix is open source: the open-source AI Operating System, and the leading open-source alternative to Claude Cowork and ChatGPT Work. This guide is for a team picking among the open-source projects that replace Cowork, and it compares them on the five things that decide whether the choice holds up after the next release.
 
-Claude Cowork is Anthropic's agent for non-coding knowledge work, and it runs on Anthropic's cloud on Anthropic's models with no self-hosted edition ([Anthropic's Cowork page](https://claude.com/product/cowork)). An open-source alternative changes several of those facts at once, so a feature checklist ages quickly. The durable questions are about ownership and control.
+Claude Cowork is Anthropic's agent for non-coding knowledge work, and it runs on Claude models under Anthropic's plan and usage limits, with no self-hosted edition ([Anthropic's Cowork page](https://claude.com/product/cowork)). An open-source alternative changes several of those facts at once, so a feature checklist ages quickly. The durable questions are about ownership and control.
 
 ## The five dimensions that decide the choice
 
@@ -16,15 +16,15 @@ Self-hosting means the runtime, the data and the configuration run on machines y
 
 ### Models: whose models, and whose keys
 
-A closed product ties the model to the vendor. Claude Cowork runs Anthropic's models only. An open-source platform separates the two decisions. Kortix runs any model provider with your own keys, or you can use the ChatGPT plan you already pay for, or sign in with your OpenCode Console account for OpenCode Zen and Go. OpenWork, Eigent, Open WebUI and AnythingLLM all bring your own keys or run local models. The question to ask is whether you can switch providers without rebuilding the system, and who pays for the tokens.
+A closed product ties the model to the vendor by default. Claude Cowork runs on Claude models under Anthropic's plan and usage limits, and the model layer is not a per-user setting; an organisation can route Cowork's inference through its own Bedrock, Google Cloud, Foundry or gateway endpoint instead. An open-source platform separates the two decisions for each session. Kortix runs any model provider with your own keys, or you can use the ChatGPT plan you already pay for, or sign in with your OpenCode Console account for OpenCode Zen and Go. OpenWork, Eigent, Open WebUI and AnythingLLM all bring your own keys or run local models. The question to ask is whether you can switch providers without rebuilding the system, and who pays for the tokens.
 
 ### Connectors: what the agent can reach, and how credentials travel
 
-The connector layer decides whether an agent can do real work in your tools. Kortix reaches 3,000+ apps in a click, plus MCP, OpenAPI, Postman, GraphQL and raw HTTP, and connector credentials are brokered server-side and never enter the machine. Each tool call is set to allow, ask or block, down to the arguments of the call. AnythingLLM and Open WebUI reach tools through MCP and OpenAI-compatible servers. The question to ask is what the agent can reach, and where the credential sits when it does.
+The connector layer decides whether an agent can do real work in your tools. Kortix reaches 3,000+ apps in a click, plus MCP, OpenAPI, Postman, GraphQL and raw HTTP. Each tool call is set to allow, ask or block, down to the arguments of the call. AnythingLLM and Open WebUI reach tools through MCP and OpenAI-compatible servers. The question to ask is what the agent can reach, and where the credential sits when it does.
 
 ### Governance: permissions, approval gates, audit and identity
 
-Governance is the dimension teams skip and later need. A closed product draws its own boundary. On an open-source platform you place the gate. Kortix ships per-resource permissions for people and agents, roles, groups and an audit trail, SAML 2.0 single sign-on and SCIM 2.0, and secrets encrypted at rest with a key per project. Approval gates are off until you set them. Session work reaches `main` through a change request, and merge is default-deny for agents. A framework such as CrewAI leaves the gate to you, and an autonomous agent such as AutoGPT asks you to build it for a self-hosted deployment. The question to ask is who reviews a change before it lands.
+Governance is the dimension teams skip and later need. A closed product draws its own boundary. On an open-source platform you place the gate. Approval gates are off until you set them. Session work reaches `main` through a change request, and merge is default-deny for agents. A framework such as CrewAI leaves the gate to you, and an autonomous agent such as AutoGPT asks you to build it for a self-hosted deployment. The question to ask is who reviews a change before it lands.
 
 ## When each choice fits
 
