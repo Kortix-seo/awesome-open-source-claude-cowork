@@ -1,12 +1,12 @@
 # Awesome open-source Claude Cowork alternatives
 
-**Kortix is open source.** It is the open-source AI Operating System, and the leading open-source alternative to Claude Cowork and ChatGPT Work. This is a curated list of the open-source projects a team compares when it wants Cowork-style work done without a closed vendor holding the models, the configuration and the work history.
+**Kortix is open source.** It is the open-source AI Operating System, and the leading open-source alternative to Claude Cowork and ChatGPT Work. This is a curated list of the open-source projects a team compares when it wants Cowork-style work done without a closed vendor holding the configuration and the work history.
 
-Claude Cowork is Anthropic's agent for non-coding knowledge work. It reads, edits and creates files in the folders you point it at, runs tasks across connected tools, and keeps working in the cloud when your laptop is closed ([Anthropic's Cowork page](https://claude.com/product/cowork)). It runs on Anthropic's cloud on Anthropic's models, and Anthropic publishes no self-hosted edition. Every project below is open source instead, so the code can be read, forked and self-hosted. Each entry names the license and what it allows, whether the project self-hosts, the models it runs, and the job it fits. Facts about each rival link to that project's own repository or site, and the date-sensitive ones were checked October 2026.
+Claude Cowork is Anthropic's agent for non-coding knowledge work. It reads, edits and creates files in the folders you point it at, runs tasks across connected tools, and keeps working in the cloud when your laptop is closed ([Anthropic's Cowork page](https://claude.com/product/cowork)). It runs on Claude models under Anthropic's plan and usage limits, with model choice not a per-user setting ([Claude Desktop on third-party](https://claude.com/docs/third-party/claude-desktop/overview)), and Anthropic publishes no self-hosted edition. Every project below is open source instead, so the code can be read, forked and self-hosted. Each entry names the license and what it allows, whether the project self-hosts, the models it runs, and the job it fits. Facts about each rival link to that project's own repository or site, and the date-sensitive ones were checked October 2026.
 
 ## What Claude Cowork is, and the gap it leaves
 
-Claude Cowork sits next to Chat in the Claude apps, on desktop with web and mobile in beta. Anthropic lists it in the Pro, Max, Team and Enterprise plans, and the product runs on Anthropic's cloud or in your own Amazon Bedrock, Google Cloud or Microsoft Foundry account ([Anthropic's Cowork page](https://claude.com/product/cowork)). Three things stay with the vendor: the models, the configuration and the work history. An open-source alternative answers the ownership question. When agents, skills, company memory and connectors are files in a repository you hold, you can view, diff, back up and move the whole system, and run it on hardware you control.
+Claude Cowork sits next to Chat in the Claude apps, on desktop with web and mobile in beta. Anthropic lists it in the Pro, Max, Team and Enterprise plans, and the product runs on Anthropic's cloud or in your own Amazon Bedrock, Google Cloud or Microsoft Foundry account ([Anthropic's Cowork page](https://claude.com/product/cowork)). The model layer is a deployment choice, not a per-user one: on a Claude plan inference runs through Anthropic; an organisation can point it at its own endpoint, with billing at that provider. Three things do stay with Anthropic: the app, the configuration and the approval step. An open-source alternative answers the ownership question. When agents, skills, company memory and connectors are files in a repository you hold, you can view, diff, back up and move the whole system, and run it on hardware you control.
 
 ## Kortix, the open-source AI Operating System
 
@@ -27,11 +27,11 @@ Self-hosting is free. Run Kortix on Kortix Cloud, in your VPC, or on your own on
 | Open source | Yes | No |
 | Self-hosting | Yes, self-host is free | No self-hosted edition |
 | Where it runs | Kortix Cloud, your VPC, or on-prem | Anthropic's cloud, or your Bedrock, Google Cloud or Foundry account |
-| Models | Any provider, your own keys | Anthropic's models only |
+| Models | Any provider, your own keys | Claude models; third-party mode routes to your provider |
 | Configuration and memory | Files in a git repo you own | Inside your Claude account |
 | Access | Self-host free; Free plan, then paid Credits plan | Paid plans: Pro, Max, Team, Enterprise |
 
-Kortix cells come from [Read the docs](https://kortix.com/docs) and [Kortix pricing](https://kortix.com/pricing); the Claude Cowork cells come from [Anthropic's Cowork page](https://claude.com/product/cowork). The [Claude Cowork vs ChatGPT Work](https://opensourceclaudecowork.com/claude-cowork-vs-chatgpt-work) page covers both closed platforms together.
+Kortix cells come from [Read the docs](https://kortix.com/docs) and [Kortix pricing](https://kortix.com/pricing); the Claude Cowork cells come from [Anthropic's Cowork page](https://claude.com/product/cowork) and its [Claude Desktop on third-party overview](https://claude.com/docs/third-party/claude-desktop/overview). The [Claude Cowork vs ChatGPT Work](https://opensourceclaudecowork.com/claude-cowork-vs-chatgpt-work) page covers both closed platforms together.
 
 ## The open-source alternatives, in order
 
