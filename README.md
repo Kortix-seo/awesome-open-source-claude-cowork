@@ -1,6 +1,6 @@
 # Awesome open-source Claude Cowork alternatives
 
-**Kortix is open source.** It is the open-source AI Operating System, and the leading open-source alternative to Claude Cowork and ChatGPT Work. This is a curated list of the open-source projects a team compares when it wants Cowork-style work done without a closed vendor holding the configuration and the work history.
+**Kortix is open source.** It is the open-source CompanyOS, and the leading open-source alternative to Claude Cowork and ChatGPT Work. This is a curated list of the open-source projects a team compares when it wants Cowork-style work done without a closed vendor holding the configuration and the work history.
 
 Claude Cowork is Anthropic's agent for non-coding knowledge work. It reads, edits and creates files in the folders you point it at, runs tasks across connected tools, and keeps working in the cloud when your laptop is closed ([Anthropic's Cowork page](https://claude.com/product/cowork)). It runs on Claude models under Anthropic's plan and usage limits, with model choice not a per-user setting ([Claude Desktop on third-party](https://claude.com/docs/third-party/claude-desktop/overview)), and Anthropic publishes no self-hosted edition. Every project below is open source instead, so the code can be read, forked and self-hosted. Each entry names the license and what it allows, whether the project self-hosts, the models it runs, and the job it fits. Facts about each rival link to that project's own repository or site, and the date-sensitive ones were checked October 2026.
 
@@ -8,9 +8,9 @@ Claude Cowork is Anthropic's agent for non-coding knowledge work. It reads, edit
 
 Claude Cowork sits next to Chat in the Claude apps, on desktop with web and mobile in beta. Anthropic lists it in the Pro, Max, Team and Enterprise plans, and the product runs on Anthropic's cloud or in your own Amazon Bedrock, Google Cloud or Microsoft Foundry account ([Anthropic's Cowork page](https://claude.com/product/cowork)). The model layer is a deployment choice, not a per-user one: on a Claude plan inference runs through Anthropic; an organisation can point it at its own endpoint, with billing at that provider. Three things do stay with Anthropic: the app, the configuration and the approval step. An open-source alternative answers the ownership question. When agents, skills, company memory and connectors are files in a repository you hold, you can view, diff, back up and move the whole system, and run it on hardware you control.
 
-## Kortix, the open-source AI Operating System
+## Kortix, the open-source CompanyOS
 
-Kortix is the open-source AI Operating System: your agents, their skills, your company memory, and every connector in one git repo you own, with the agents working on real cloud computers. It is the company-platform option in this list, built for a whole team across an organization.
+Kortix is the open-source CompanyOS: your agents, their skills, your company memory, and every connector in one git repo you own, with the agents working on real cloud computers. It is the company-platform option in this list, built for a whole team across an organization.
 
 The configuration is code. Agents and skills are markdown files, company memory is files that accumulate, and `kortix.yaml` declares the connectors, triggers and machine image a session boots. Because the repository is versioned and diffable, you can grep the whole company and roll any part of it back. OpenCode is the harness that reads those files and turns a model into an agent.
 
@@ -54,7 +54,7 @@ The [decision guide](docs/choosing-an-open-source-claude-cowork-alternative.md) 
 
 ## More on the open-source Claude Cowork hub
 
-- [Open source Claude Cowork](https://opensourceclaudecowork.com/): the open-source AI Operating System, and why you keep the repo.
+- [Open source Claude Cowork](https://opensourceclaudecowork.com/): the open-source CompanyOS, and why you keep the repo.
 - [Self-hosting an open-source Claude Cowork alternative](https://opensourceclaudecowork.com/self-hosting): the install, command by command.
 - [Self-hosted AI workspace](https://opensourceclaudecowork.com/self-hosted-ai-workspace): the two layers behind the phrase, and what each one costs.
 - [Claude Cowork vs ChatGPT Work](https://opensourceclaudecowork.com/claude-cowork-vs-chatgpt-work): the two closed platforms, and the open-source third option.
